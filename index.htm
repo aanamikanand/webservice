@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <title>CSV Formatter</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style> 
+         .csvString {
+            width: 100%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            font-size: 16px;
+            resize: none;
+         }
+         .csvFormat {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+         }
+         </style>
+   </head>
+   <body>
+      <form method = "POST">
+        CSV String: <textarea name="csvString" class="csvString"></textarea>
+        <input type = "submit" class="csvFormat" value = "Format">
+      </form>
+   </body>
+</html>
